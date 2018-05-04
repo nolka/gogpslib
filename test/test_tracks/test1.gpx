@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx
+        version="1.0"
+        creator="GPSBabel - http://www.gpsbabel.org"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.topografix.com/GPX/1/0"
+        xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+    <metadata>
+        <name>Annie's Parent Ride: Part II</name>
+        <author>
+            <name>jonable</name>
+            <link href="http://www.gpsies.com/mapUser.do?username=jonable">
+                <text>jonable on GPSies.com</text>
+                <type>GPSiesUserOnWeb</type>
+            </link>
+        </author>
+        <link href="http://www.gpsies.com/map.do?fileId=uwzsfraydzxrxwzn">
+            <text>Annie's Parent Ride: Part II on GPSies.com</text>
+            <type>trackOnWeb</type>
+        </link>
+        <time>2018-05-01T21:17:29Z</time>
+    </metadata>
+    <trk>
+        <name>Track Log - 1</name>
+        <trkseg>
+            <trkpt lat="56.043451700" lon="92.546105000">
+                <!--<ele>316.473846</ele>-->
+                <time>2010-09-04T04:06:45Z</time>
+            </trkpt>
+            <trkpt lat="56.043126700" lon="92.544923300">
+                <ele>317.174866</ele>
+                <time>2010-09-04T04:06:52Z</time>
+            </trkpt>
+            <trkpt lat="56.043021700" lon="92.544125000">
+                <ele>318.363586</ele>
+                <time>2010-09-04T04:06:56Z</time>
+            </trkpt>
+            <trkpt lat="56.042905000" lon="92.543098300">
+                <ele>317.814941</ele>
+                <time>2010-09-04T04:07:02Z</time>
+            </trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Track Log - 2</name>
+        <trkseg>
+            <trkpt lat="56.043451700" lon="92.546105000">
+                <ele>316.473846</ele>
+                <time>2010-09-04T04:06:45Z</time>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>
