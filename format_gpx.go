@@ -90,6 +90,14 @@ func (s *GpxFormat) SetSegments(segments []TrackSegment) {
 	s.Segments = segments
 }
 
+func (s *GpxFormat) GetGeoPointsCount() int {
+	var count int = 0
+	for _, s := range s.GetSegments() {
+		count += s.GetPointsCount()
+	}
+	return count
+}
+
 func (s *GpxFormat) Read(fileName string) {
 	file, err := os.Open(fileName)
 	if err != nil {

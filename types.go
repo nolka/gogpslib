@@ -2,7 +2,6 @@ package gogpslib
 
 import (
 	"time"
-
 	"github.com/nolka/gogpslib/writer"
 )
 
@@ -10,7 +9,7 @@ type FormatReaderWriter interface {
 	Read(fileName string)
 	GetSegments() []TrackSegment
 	SetSegments(segments []TrackSegment)
-	Write(w writer.Writer)
+	WriteSegments(w writer.Writer)
 	GetGeoPointsCount() int
 }
 
